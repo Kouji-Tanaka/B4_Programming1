@@ -1,2 +1,6 @@
 # 問1
-## ソースファイル
+## main.c
+## sub.c
+## sub.h
+## makefile
+## 出力結果
