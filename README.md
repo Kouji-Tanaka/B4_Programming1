@@ -117,4 +117,11 @@ cleen :
 		rm main.out
 ```
 ## 出力結果
-![](/result.png)
+[![](./image/result.png)](./image/result.png)
+
+----
+- [問2へ]()
+- [問3へ]()
+- [問4へ]()
+- [問5へ]()
+- [問6へ]()
