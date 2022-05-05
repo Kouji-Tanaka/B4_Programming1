@@ -1,6 +1,8 @@
 # 問1
+
+任意の整数に対して動くプログラムを作成したが、ここでは`n=10, m=5`で計算した結果を載せている。
 ## main.c
-'''
+```C
 #include <stdio.h>
 #include "sub.h"
 
@@ -25,9 +27,10 @@ int main(void)
         printf("(4)\tans=%d\n", convination(n, m));
     }
 }
-'''
+```
+
 ## sub.c
-'''
+```C
 #include <stdio.h>
 
 /*(1)*/
@@ -82,9 +85,9 @@ int convination(int n, int m)
 
     return ans;
 }
-'''
+```
 ## sub.h
-'''
+```
 #ifndef SUB_H
 #define DUB_H
 
@@ -94,9 +97,9 @@ int factrial(int);
 int convination(int ,int);
 
 #endif
-'''
+```
 ## makefile
-'''
+```makefile
 #makefile
 .PHONY : cleen help
 
@@ -112,6 +115,6 @@ main.out : src/main.c src/sub.c
 
 cleen :
 		rm main.out
-'''
+```
 ## 出力結果
-![](./result.png)
+![](/result.png)
