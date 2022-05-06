@@ -114,7 +114,7 @@ main.out : src/main.c src/sub.c
 	@echo "exported as \""$@"\""
 
 clean :
-		rm main.out
+	-rm main.out
 ```
 ## 出力結果
 [![](./image/result.png)](./image/result.png)
