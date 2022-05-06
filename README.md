@@ -4,7 +4,7 @@
 ## main.c
 ```C
 #include <stdio.h>
-#include "sub.h"
+#include "../include/sub.h"
 
 int main(void)
 {
@@ -110,10 +110,10 @@ LDFLAGS :=
 LDFLIBS :=
 
 main.out : src/main.c src/sub.c
-	$(CC) $(CFLAGS) main.c sub.c
+	$(CC) $(CFLAGS) src/main.c src/sub.c
 	@echo "exported as \""$@"\""
 
-cleen :
+clean :
 		rm main.out
 ```
 ## 出力結果
