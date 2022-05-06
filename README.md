@@ -120,8 +120,8 @@ clean :
 [![](./image/result.png)](./image/result.png)
 
 ----
-- [問2へ]()
-- [問3へ]()
-- [問4へ]()
-- [問5へ]()
-- [問6へ]()
+- [問2へ](https://github.com/Kouji-Tanaka/B4_Programming2)
+- [問3へ](https://github.com/Kouji-Tanaka/B4_Programming3)
+- [問4へ](https://github.com/Kouji-Tanaka/B4_Programming4)
+- [問5へ](https://github.com/Kouji-Tanaka/B4_Programming5)
+- [問6へ](https://github.com/Kouji-Tanaka/B4_Programming6)
