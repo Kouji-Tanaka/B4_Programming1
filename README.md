@@ -1,9 +1,9 @@
 # 問1
 ## 関数作成
-<p style="text-indent: 1em;">
 sub.cに、整数$n,m$に対して次の値を計算する関数を作成する。
-</p>
-### (1) $ \sum_{k=1}^n k^2 $
+
+### (1) 
+$$ \sum_{k=1}^n k^2 $$
 ```C
 int sigma(int n)
 {
@@ -16,7 +16,8 @@ int sigma(int n)
 }
 ```
 
-### (2) $ \prod_{k=1}^n \frac{1}{k^2} $
+### (2)
+$$ \prod_{k=1}^n \frac{1}{k^2} $$
 ```C
 double product(int n)
 {
@@ -29,7 +30,8 @@ double product(int n)
 }
 ```
 
-### (3) $ n! $
+### (3)
+$$ n! $$
 ```C
 int factrial(int n)
 {
@@ -42,7 +44,8 @@ int factrial(int n)
 }
 ```
 
-### (4) $ _n C_m $
+### (4)
+$$ _n C_m $$
 ```C
 int convination(int n, int m)
 {
@@ -105,7 +108,7 @@ $n=10, m=5$で計算した結果はこのようになった。
 - [問5へ](https://github.com/Kouji-Tanaka/B4_Programming5 "Kouji-Tanaka/B4_Programming5")
 - [問6へ](https://github.com/Kouji-Tanaka/B4_Programming6 "Kouji-Tanaka/B4_Programming6")
 
-<div style="text-align: right;">
+<div>
     <a href="#">
         [Topへ]
     </a>
