@@ -1,5 +1,5 @@
 #ifndef SUB_H
-#define DUB_H
+#define SUB_H
 
 int sigma(int);
 double product(int);
