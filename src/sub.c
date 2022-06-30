@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "../include/sub.h"
 
 /*(1)*/
 int sigma(int n)
